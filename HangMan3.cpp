@@ -179,7 +179,7 @@ void chooseWord()
         case 3: topic="subjects"; break;
         case 4: topic="countries"; break;
     }
-    ifstream file(topic+".txt");
+    ifstream file("DataHangManGame/"+topic+".txt");
     string listOfWords[1000];
     int n=0;
     while (!file.eof())
