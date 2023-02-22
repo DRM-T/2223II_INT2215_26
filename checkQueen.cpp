@@ -22,6 +22,7 @@ int main()
 
 void restart()
 {
+    cin>> n;
     for (int i=0; i<=2*n; i++)
         row[i]=col[i]=dia1[i]=dia2[i]=true;
 }
@@ -42,7 +43,6 @@ void solve()
 {
     check=false;
     int x, y, i;
-    cin>> n;
     for (i=0; i<n; i++)
     {
         cin>> x>> y;
