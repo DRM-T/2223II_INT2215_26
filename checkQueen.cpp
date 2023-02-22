@@ -5,14 +5,14 @@ using namespace std;
 bool row[20002], col[20002], dia1[20002], dia2[20002], check;
 int n;
 
-void restart();
+void start();
 bool valid(int x, int y);
 void visit(int x, int y);
 void solve();
 
 int main()
 {
-    restart();
+    start();
     solve();
     if (check)
         cout<< "yes";
@@ -20,7 +20,7 @@ int main()
         cout<< "no";
 }
 
-void restart()
+void start()
 {
     cin>> n;
     for (int i=0; i<=2*n; i++)
