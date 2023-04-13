@@ -14,7 +14,7 @@ int main()
     }
 
     for (i=0; i<n; i++)
-        if (f[a[i]]-i+1>max)
+        if (f[a[i]]-i>max)
             max=f[a[i]]-i;
     cout<< max;
 }
